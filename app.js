@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('hello world!');
-
 var Board = function() {
   this.board = [['-','-','-'],['-','-','-'],['-','-','-']];
 } // end Board
@@ -51,6 +49,6 @@ board.toggleX(0,0);
 board.toggleO(0,0);
 board.toggleO(0,1);
 
-
-
-
+// todo: figure out logic for checkWinner
+  // decide when is best to call checkWinner
+// transform so that players can provide arguments to call specific function from Command Line? 
