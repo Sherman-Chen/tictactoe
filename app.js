@@ -6,10 +6,16 @@ var Board = function() {
 
 Board.prototype = {
   print: function() {
-    console.log('hey');
+    console.log(this.board);
+  },
+  toggle: function(row, column) {
+    for (var i = 0; i < this.board.length; i++) {
+      console.log('toggling');
+    }
   }
 }
 
 var board = new Board();
 
-board.print();
+// board.print();
+board.toggle();
